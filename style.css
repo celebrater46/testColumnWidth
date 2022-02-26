@@ -44,17 +44,21 @@ div.page{
 }
 
 div#prev{
-    top: 0;
+    top: 95vh;
     right: -200vw;
+    /*right: 0;*/
 }
 
 div#current{
-    top: -95vh;
+    top: 0;
     right: -100vw;
+    /*right: 100vw;*/
 }
 
 div#next{
-    top: -190vh;
+    top: -95vh;
+    right: 0;
+    /*right: 200vw;*/
 }
 
 /*span.rotate{*/
@@ -80,4 +84,22 @@ a{
 
 a:hover{
     color: gold;
+}
+
+button{
+    position: fixed;
+    width: 47vw;
+    height: 96vh;
+    top: 2vh;
+    color: black;
+    background-color: silver;
+    opacity: 0.2;
+}
+
+button#left{
+    left: 2vw;
+}
+
+button#right{
+    right: 2vw;
 }
