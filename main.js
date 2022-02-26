@@ -66,7 +66,7 @@ const buttonClicked = async(lr) => {
         }
     }
     await scrollWindow(width * 0.1, 0, 1, true);
-    await scrollWindow(width * 1.1, height * 0.95, 1000, false);
+    await scrollWindow(width * 1.1, height * 0.94, 1000, false);
     // window.scrollTo({
     //     // left: pageNum * width + width * 0.1,
     //     left: width * 1.1,
